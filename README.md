@@ -1,34 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
+<body style="background-color:white">
 
+<h1 style="color: Black">Seton LaSalle Homework Page</h1>
+<p style="color: Green">Green=Fereshman.</p>
+<p style="color: Yellow"> Yellow=Sophomore.</p>
+<p style="color: black">Black=Junior.</p>
+<p style="color: Red"> ?=Senior.</p>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: White;
+}
+</style>
 </head>
-<body style="background-color:black">
+<body>
 
-<h1 style="background-color: Mediumseagreen">Seton LaSalle Homework</h1>
-<p style="color: green">Green = Freshman</p>
-<p style="color: yellow"> Yellow = Sophomore</p>
-<p style="color:silver"> Grey = Junior</p>
-<p style="color:red"> ? = Senior</p>
+<h2>Homework Pannel</h2>
 
-<div class="freshman">
-<h2>Freshman</h2>
-<p>To be determined.</p>
-</div> 
+<table style="color: grey
+">
+  <tr>
+    <th style="background-color: Green">Freshman</th>
+    <th style="background-color: yellow">Sophomore</th>
+    <th style="background-color: black">Junior</th>
+    <th style="background-color: red"> Senior </th>
+  </tr>
+  <tr>
+    <td style="background-color: Green">TBD </td>
+    <td style="background-color: yellow">TBD</td>
+    <td style="background-color: black">TBD</td>
+    <td style="background-color: red"> TBD</td>
+  </tr>
+  <tr>
+    <td style="background-color: Green">TBD</td>
+    <td style="background-color: yellow">TBD</td>
+    <td style="background-color: black">TBD</td>
+    <td style="background-color: red"> TBD</td>
+  </tr>
+  <tr>
+    <td style="background-color: Green">TBD</td>
+    <td style="background-color: yellow">TBD</td>
+    <td style="background-color: black">TBD</td>
+    <td style="background-color: red"> TBD</td>
+  </tr>
+  <tr>
+    <td style="background-color: Green">TBD</td>
+    <td style="background-color: yellow">TBD</td>
+    <td style="background-color: black">TBD</td>
+    <td style="background-color: red"> TBD</td>
+  </tr>
+  <tr>
+    <td style="background-color: Green">TBD</td>
+    <td style="background-color: yellow">TBD</td>
+    <td style="background-color: black">TBD</td>
+    <td style="background-color: red"> TBD</td>
+  </tr>
+  <tr>
+    <td style="background-color: Green">TBD</td>
+    <td style="background-color: yellow">TBD</td>
+    <td style="background-color: black">TBD</td>
+    <td style="background-color: red"> TBD</td>
+  </tr>
+</table>
 
-<div class="sophomore">
-<h2>Sophomore</h2>
-<p>T be determined.</p>
-</div>
-
-<div class="junior">
-<h2>Junior</h2>
-<p>To be determined.</p>
-</div>
-
-<div class="senior">
-<h2>Senior</h2>
-<p>To be determined.</p>
-</div>
 </body>
 </html>
